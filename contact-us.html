@@ -1,0 +1,151 @@
+<!--Abhishek Agnihotri-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StyleSaga - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header class="header">
+    <div class="top-bar full-wid">
+      <div class="wrapper">
+        <div class="top-bar-contact">
+          <a href="tel:(123)-456-7890">
+            <i class="fa-solid fa-phone"></i>Phone: +1 (123)-456-7890
+          </a>
+          <a href="mailto:info@stylesaga.com">
+            <i class="fa-solid fa-envelope"></i>Email: info@stylesaga.com
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="wrapper">
+        <div class="header-inner full-wid">
+          <div class="logo">
+            <a class="logo-link" href="home.html">
+              <img src="images/logo.png" width="300" alt="Logo">
+            </a>
+          </div>
+          <nav class="navigation">
+            <div id="toggle">
+              <i class="fa fa-bars"></i>
+            </div>
+            <ul class="nav-ul">
+              <li class="active">
+                <a href="home.html">Home</a>
+              </li>
+              <li>
+                <a href="about-us.html">About us</a>
+              </li>
+              <li>
+                <a href="shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="contact-us.html">Contact us</a>
+              </li>
+              <li>
+                <a href="login.html">Login/Register</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="contact-container">
+      <div class="left-col"> </div>
+      <div class="right-col">
+        <h1>Contact us</h1>
+          <form id="contact-form" method="post">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+            <div id="name-error" class="error-message"></div>
+        
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            <div id="email-error" class="error-message"></div>
+        
+            <label for="message">Message</label>
+            <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+            <div id="message-error" class="error-message"></div>
+        
+            <button type="button" id="submit" name="submit" class="btn" onclick="validateForm()">Send</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer class="full-wid">
+    <div class="wrapper">
+        <div class="footer-inner">
+            <div class="footer-widget">
+                <a class="logo-link" href="index.html">
+                    <img src="images/logo.png" width="300" alt="Logo">
+                </a>
+                <p>Stylesaga is a direct to consumer beauty brand, offering performance cosmetics that's made with integrity</p>
+            </div>
+            <div class="footer-widget">
+                <h5>Quick Links</h5>
+                <ul class="nav-ul">
+                  <li class="active">
+                      <a href="home.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="about-us.html">About us</a>
+                  </li>
+                  <li>
+                      <a href="shop.html">Shop</a>
+                  </li>
+                  <li>
+                      <a href="contact-us.html">Contact us</a>
+                  </li>
+                  <li>
+                      <a href="login.html">Login/Register</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Social Media</h5>
+                <ul class="social-icons">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h5>Contact Information</h5>
+                <ul>
+                    <li><b>Address</b> - 70 Lambert crescent, brantford, Ontario, Canada, N3T 078</li>
+                    <li><b>Phone</b> - <a href="tel:1234567890">(123)-456-7890</a></li>
+                    <li><b>Email</b> - <a href="mailto:info@stylesaga.com">info@stylesaga.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2023 stylesaga Fashion | All Right Reserved.
+    </div>
+</footer>
+</body>
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/contact.js"></script>
+</html>

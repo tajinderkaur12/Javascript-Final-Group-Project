@@ -1,0 +1,80 @@
+.contact-container {
+  display: grid;
+  width: 100%;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-col {
+  width: 45vw;
+  background-image: url(../images/pexels-binoid-cbd-3612182.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  width: 50vw;
+  padding: 5rem 3.5rem;
+}
+
+h1,
+label,
+button,
+.description {
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 14px;
+  margin: 0.25rem 0;
+}
+
+/* Toggle Switch */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 160px;
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+}
+
+.description {
+  margin-left: 1.25rem;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+#error,
+#success-msg {
+  width: 40vw;
+  margin: 0.125rem 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#success-msg {
+  transition-delay: 3s;
+}
+
+.error-message
+{
+  color: red;
+}
